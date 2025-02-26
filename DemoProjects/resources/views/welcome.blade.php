@@ -50,7 +50,7 @@
                         <a class="nav-link" href="about.html">About</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="\banh">Bakery</a>
+                        <a class="nav-link" href="\bakery">Bakery</a>
                      </li>
                      <li class="nav-item">
                         <a class="nav-link" href="\coffee">Coffees</a>

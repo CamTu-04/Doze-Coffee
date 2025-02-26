@@ -93,8 +93,35 @@ class ProductController extends Controller
     }
     public function showCoffee()
     {
-        $all_product = DB::table('tbl_product')->get(); // Lấy tất cả sản phẩm từ database
-        return view('pages.coffee', compact('all_product')); // Trả về view coffee.blade.php
-    }
+        $coffee_category = DB::table('tbl_category_product')
+        ->where('category_name', 'coffee') // Đổi 'coffee' thành tên danh mục bạn đã đặt
+        ->first();
 
+        // Nếu tồn tại danh mục coffee, lấy sản phẩm thuộc danh mục đó
+        if ($coffee_category) {
+            $all_product = DB::table('tbl_product')
+                ->where('category_id', $coffee_category->category_id)
+                ->get();
+        } else {
+            $all_product = collect(); // Trả về danh sách rỗng nếu không có danh mục coffee
+        }
+
+        return view('pages.coffee', compact('all_product'));
+    }
+    public function showBakery()
+    {
+        $bakery_category = DB::table('tbl_category_product')
+        ->where('category_name', 'Bakery') 
+        ->first();
+
+        if ($bakery_category) {
+            $all_product = DB::table('tbl_product')
+                ->where('category_id', $bakery_category->category_id)
+                ->get();
+        } else {
+            $all_product = collect(); // Trả về danh sách rỗng nếu không có danh mục coffee
+        }
+
+        return view('pages.banh', compact('all_product'));
+    }
 }

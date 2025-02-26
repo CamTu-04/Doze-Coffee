@@ -10,12 +10,9 @@ Route::get('/user', function(){
     return view('user');
 });
 
-use App\Http\Controllers\PageController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\CategoryProduct;
 use App\Http\Controllers\ProductController;
-
-Route::get('/banh', [PageController::class, 'Bakery']);
 
 Route::get('/admin', [AdminController::class, 'index']);
 Route::get('/dashboard', [AdminController::class, 'show_dashboard']);
@@ -43,3 +40,4 @@ Route::post('/save-product', [ProductController::class, 'save_product']);
 Route::post('/update-product/{product_id}', [ProductController::class, 'update_product']);
 
 Route::get('/coffee', [ProductController::class, 'showCoffee']);
+Route::get('/bakery', [ProductController::class, 'showBakery']);
