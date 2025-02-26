@@ -17,63 +17,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Thanh tiêu đề */
-.header_section {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: rgb(227, 112, 112);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 50px;
-}
-
-.navbar-brand img {
-    height: 50px;
-}
-
-.navbar-nav {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-.nav-item {
-    padding: 10px;
-}
-
-.nav-link {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 600;
-    color: #333;
-    transition: color 0.3s ease-in-out;
-}
-
-.nav-link:hover {
-    color: #ff6b6b;
-}
-
-.login_bt {
-    display: flex;
-    gap: 15px;
-}
-
-.login_bt a {
-    color: #333;
-    font-size: 18px;
-    transition: color 0.3s;
-}
-
-.login_bt a:hover {
-    color: #ff6b6b;
-}
 
 /* Bố cục chính */
 .tm-container {
@@ -172,6 +115,7 @@ h2 { margin-top: 0; }
 }
 
 .tm-video-wrapper { position: relative; }
+
 
 
 .tm-container { padding: 30px; }
