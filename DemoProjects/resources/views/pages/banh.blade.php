@@ -24,7 +24,7 @@
                    <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                   <a class="nav-link" href="about.html">About</a>
+                   <a class="nav-link" href="/about">About</a>
                 </li>
                 <li class="nav-item active">
                   <a class="nav-link" href="/bakery">Bakery</a></a>
@@ -33,7 +33,7 @@
                    <a class="nav-link" href="/coffee">Coffee</a></a>
                 </li>
                 <li class="nav-item">
-                   <a class="nav-link" href="blog.html">Blog</a>
+                   <a class="nav-link" href="/blog">Blog</a>
                 </li>
                 <li class="nav-item">
                    <a class="nav-link" href="contact.html">Contact</a>
