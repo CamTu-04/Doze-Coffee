@@ -5,7 +5,8 @@ Doze Coffee là một website bán cà phê và bánh ngọt trực tuyến, cun
 
 ## Tính năng chính
 - **Danh mục sản phẩm:** Hiển thị đa dạng các loại cà phê hạt, cà phê rang xay, cà phê pha máy,...
-- **Đăng nhập & Đăng ký:** Hỗ trợ người dùng tạo tài khoản và đăng nhập để quản lý thông tin cá nhân.
+- **Thêm, sửa, xóa sản phẩm....
+- **Đăng nhập web với quyền admin
 - **Tìm kiếm & Bộ lọc:** Giúp khách hàng tìm kiếm sản phẩm một cách nhanh chóng.
 - **Blog & Tin tức:** Cung cấp kiến thức về cà phê, cách pha chế và cập nhật xu hướng mới.
 - **Liên hệ & Hỗ trợ:** Hỗ trợ khách hàng qua email, chat hoặc hotline.
