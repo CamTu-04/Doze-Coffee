@@ -15,7 +15,6 @@ Doze Coffee là một website bán cà phê và bánh ngọt trực tuyến, cun
 - **Backend:** Laravel (PHP Framework)
 - **Frontend:** Blade Template, HTML, CSS, JavaScript
 - **Cơ sở dữ liệu:** MySQL
-- **Thanh toán:** Tích hợp cổng thanh toán (Momo, VNPay, PayPal,...)
 
 ## Cách cài đặt
 1. Clone repository:
